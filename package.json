@@ -1,0 +1,27 @@
+{
+  "name": "auth-passport-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run index.js"
+  },
+  "keywords": [],
+  "author": "Mohan Sharma",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.4.0"
+  }
+}
